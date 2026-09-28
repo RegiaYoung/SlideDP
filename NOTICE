@@ -1,0 +1,6 @@
+SlideDP
+Copyright 2025-2026 The SlideDP Authors
+
+The currently released code under baselines/slideformer_dp/ is derived from
+SlideFormer and retains its authorship and third-party notices. See
+baselines/slideformer_dp/NOTICE and baselines/slideformer_dp/LICENSES/.
