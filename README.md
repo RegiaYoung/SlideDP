@@ -2,7 +2,7 @@
 
 ## Scaling Host-Resident LLM Fine-Tuning Across Multiple GPUs
 
-**Paper:** arXiv link pending.
+**Paper:** [arXiv:2609.34162](https://arxiv.org/abs/2609.34162).
 
 [Current code release](#current-code-release) · [SlideFormer](https://github.com/RegiaYoung/SlideFormer)
 
@@ -22,8 +22,8 @@ data movement and CPU updates with GPU computation.
 
 An analytical step-time model characterizes shared-resource bottlenecks and
 exposed pipeline work; runtime measurements guide communication, chunking, and
-activation policies under a GPU memory budget. The paper and its full technical
-description will be linked here when the arXiv preprint becomes available.
+activation policies under a GPU memory budget. See the
+[paper](https://arxiv.org/abs/2609.34162) for the full technical description.
 
 ## Current code release
 
@@ -60,9 +60,20 @@ SlideDP/
 
 ## Paper and citation
 
-The arXiv identifier and BibTeX entry will be added after the preprint is
-announced. The paper title is *SlideDP: Scaling Host-Resident LLM Fine-Tuning
-Across Multiple GPUs*.
+The paper, *SlideDP: Scaling Host-Resident LLM Fine-Tuning Across Multiple
+GPUs*, is available on [arXiv](https://arxiv.org/abs/2609.34162).
+
+```bibtex
+@misc{yang2026slidedp,
+  title={{SlideDP}: Scaling Host-Resident {LLM} Fine-Tuning Across Multiple {GPUs}},
+  author={Ruijia Yang and Shiyuan Lin and Yulong Ao and Zhiyu Li and Yingli Zhao and Xianduo Li and Yonghua Lin and Zeyi Wen},
+  year={2026},
+  eprint={2609.34162},
+  archivePrefix={arXiv},
+  primaryClass={cs.DC},
+  url={https://arxiv.org/abs/2609.34162}
+}
+```
 
 For the original single-GPU runtime, see the
 [SlideFormer paper and citation](https://github.com/RegiaYoung/SlideFormer#citation).
