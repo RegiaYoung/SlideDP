@@ -47,6 +47,16 @@ torchrun --standalone --nproc_per_node=2 scripts/main_dp.py \
   --tiny --steps 3 --chunk-numel 4096 --cpu-threads 2
 ```
 
+## Supported Models
+
+- [Qwen2, Qwen2.5, Qwen3, and Qwen3.6 families](https://huggingface.co/Qwen)
+- [Llama 3, 3.1, 3.2, and 3.3 families](https://huggingface.co/meta-llama)
+- [Mistral family](https://huggingface.co/mistralai)
+- Gemma 4 family: [26B-A4B](https://huggingface.co/google/gemma-4-26B-A4B) and [31B](https://huggingface.co/google/gemma-4-31B).
+
+We support full-parameter fine-tuning across a wide range of [Hugging Face](https://huggingface.co/models) language models.
+Support for multimodal models is under active development.
+
 ## Repository layout
 
 ```text
